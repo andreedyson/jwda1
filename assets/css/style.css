@@ -1,0 +1,18 @@
+th {
+  width: 200px;
+  padding: 8px;
+  background-color: #a78bfa;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  border-block: 4px solid #ececed;
+}
+
+tbody tr td {
+  font-weight: 600;
+}
+
+tbody tr td:first-child {
+  font-weight: 800;
+}
